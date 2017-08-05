@@ -13,7 +13,7 @@ Spaces are not important, linefeeds are not important,
 interpretation of values and keys is left to the command that
 processes the code.
 
-    gnome-terminal { f1: off, f10: off }
+    gnome-terminal { f1: off }
 
 For file names it is recommended to keep it in `config.dna` to
 easily gather all settings from repositories and build stats.
@@ -23,3 +23,8 @@ easily gather all settings from repositories and build stats.
 Share user preferences, building stats, visualizing, detecting
 most popular options, detect weird defaults, storing software
 configs in blockchain.
+
+### Processors
+
+* gnome-terminal
+  * f1: off  - release F1 shortcut for other programs
